@@ -9,9 +9,9 @@ from email.mime.text import MIMEText
 # 邮件构建
 
 def send(subject, content):
-    sender = "newton520@163.com"  # 发送方
-    recver = "252489079@qq.com"  # 接收方
-    password = "DPERENVSFRRXENRT"  # 邮箱密码
+    sender = ""  # 发送方
+    recver = ""  # 接收方
+    password = ""  # 邮箱密码
     message = MIMEText(content, "plain", "utf-8")
     # content 发送内容     "plain"文本格式   utf-8 编码格式
 
